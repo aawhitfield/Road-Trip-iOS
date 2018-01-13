@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19B5091F2009CEB500635ACE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B5091E2009CEB500635ACE /* AppDelegate.swift */; };
+		19B509212009CEB500635ACE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B509202009CEB500635ACE /* ViewController.swift */; };
+		19B509242009CEB500635ACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B509222009CEB500635ACE /* Main.storyboard */; };
+		19B509272009CEB500635ACE /* Road_Trip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19B509252009CEB500635ACE /* Road_Trip.xcdatamodeld */; };
+		19B509292009CEB500635ACE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B509282009CEB500635ACE /* Assets.xcassets */; };
+		19B5092C2009CEB500635ACE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B5092A2009CEB500635ACE /* LaunchScreen.storyboard */; };
+		19B509372009CEB600635ACE /* Road_TripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B509362009CEB600635ACE /* Road_TripTests.swift */; };
+		19B509422009CEB600635ACE /* Road_TripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B509412009CEB600635ACE /* Road_TripUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19B509332009CEB600635ACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19B509132009CEB400635ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B5091A2009CEB500635ACE;
+			remoteInfo = "Road Trip";
+		};
+		19B5093E2009CEB600635ACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19B509132009CEB400635ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B5091A2009CEB500635ACE;
+			remoteInfo = "Road Trip";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19B5091B2009CEB500635ACE /* Road Trip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Road Trip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B5091E2009CEB500635ACE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19B509202009CEB500635ACE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19B509232009CEB500635ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19B509262009CEB500635ACE /* Road_Trip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Road_Trip.xcdatamodel; sourceTree = "<group>"; };
+		19B509282009CEB500635ACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19B5092B2009CEB500635ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19B5092D2009CEB600635ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19B509322009CEB600635ACE /* Road TripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Road TripTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B509362009CEB600635ACE /* Road_TripTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Road_TripTests.swift; sourceTree = "<group>"; };
+		19B509382009CEB600635ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19B5093D2009CEB600635ACE /* Road TripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Road TripUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B509412009CEB600635ACE /* Road_TripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Road_TripUITests.swift; sourceTree = "<group>"; };
+		19B509432009CEB600635ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19B509182009CEB500635ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B5092F2009CEB600635ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B5093A2009CEB600635ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19B509122009CEB400635ACE = {
+			isa = PBXGroup;
+			children = (
+				19B5091D2009CEB500635ACE /* Road Trip */,
+				19B509352009CEB600635ACE /* Road TripTests */,
+				19B509402009CEB600635ACE /* Road TripUITests */,
+				19B5091C2009CEB500635ACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19B5091C2009CEB500635ACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19B5091B2009CEB500635ACE /* Road Trip.app */,
+				19B509322009CEB600635ACE /* Road TripTests.xctest */,
+				19B5093D2009CEB600635ACE /* Road TripUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19B5091D2009CEB500635ACE /* Road Trip */ = {
+			isa = PBXGroup;
+			children = (
+				19B5091E2009CEB500635ACE /* AppDelegate.swift */,
+				19B509202009CEB500635ACE /* ViewController.swift */,
+				19B509222009CEB500635ACE /* Main.storyboard */,
+				19B509282009CEB500635ACE /* Assets.xcassets */,
+				19B5092A2009CEB500635ACE /* LaunchScreen.storyboard */,
+				19B5092D2009CEB600635ACE /* Info.plist */,
+				19B509252009CEB500635ACE /* Road_Trip.xcdatamodeld */,
+			);
+			path = "Road Trip";
+			sourceTree = "<group>";
+		};
+		19B509352009CEB600635ACE /* Road TripTests */ = {
+			isa = PBXGroup;
+			children = (
+				19B509362009CEB600635ACE /* Road_TripTests.swift */,
+				19B509382009CEB600635ACE /* Info.plist */,
+			);
+			path = "Road TripTests";
+			sourceTree = "<group>";
+		};
+		19B509402009CEB600635ACE /* Road TripUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19B509412009CEB600635ACE /* Road_TripUITests.swift */,
+				19B509432009CEB600635ACE /* Info.plist */,
+			);
+			path = "Road TripUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19B5091A2009CEB500635ACE /* Road Trip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B509462009CEB600635ACE /* Build configuration list for PBXNativeTarget "Road Trip" */;
+			buildPhases = (
+				19B509172009CEB500635ACE /* Sources */,
+				19B509182009CEB500635ACE /* Frameworks */,
+				19B509192009CEB500635ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Road Trip";
+			productName = "Road Trip";
+			productReference = 19B5091B2009CEB500635ACE /* Road Trip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19B509312009CEB600635ACE /* Road TripTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B509492009CEB600635ACE /* Build configuration list for PBXNativeTarget "Road TripTests" */;
+			buildPhases = (
+				19B5092E2009CEB600635ACE /* Sources */,
+				19B5092F2009CEB600635ACE /* Frameworks */,
+				19B509302009CEB600635ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19B509342009CEB600635ACE /* PBXTargetDependency */,
+			);
+			name = "Road TripTests";
+			productName = "Road TripTests";
+			productReference = 19B509322009CEB600635ACE /* Road TripTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19B5093C2009CEB600635ACE /* Road TripUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B5094C2009CEB600635ACE /* Build configuration list for PBXNativeTarget "Road TripUITests" */;
+			buildPhases = (
+				19B509392009CEB600635ACE /* Sources */,
+				19B5093A2009CEB600635ACE /* Frameworks */,
+				19B5093B2009CEB600635ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19B5093F2009CEB600635ACE /* PBXTargetDependency */,
+			);
+			name = "Road TripUITests";
+			productName = "Road TripUITests";
+			productReference = 19B5093D2009CEB600635ACE /* Road TripUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19B509132009CEB400635ACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Infinity Labs";
+				TargetAttributes = {
+					19B5091A2009CEB500635ACE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					19B509312009CEB600635ACE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 19B5091A2009CEB500635ACE;
+					};
+					19B5093C2009CEB600635ACE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 19B5091A2009CEB500635ACE;
+					};
+				};
+			};
+			buildConfigurationList = 19B509162009CEB500635ACE /* Build configuration list for PBXProject "Road Trip" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19B509122009CEB400635ACE;
+			productRefGroup = 19B5091C2009CEB500635ACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19B5091A2009CEB500635ACE /* Road Trip */,
+				19B509312009CEB600635ACE /* Road TripTests */,
+				19B5093C2009CEB600635ACE /* Road TripUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19B509192009CEB500635ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B5092C2009CEB500635ACE /* LaunchScreen.storyboard in Resources */,
+				19B509292009CEB500635ACE /* Assets.xcassets in Resources */,
+				19B509242009CEB500635ACE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B509302009CEB600635ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B5093B2009CEB600635ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19B509172009CEB500635ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B509272009CEB500635ACE /* Road_Trip.xcdatamodeld in Sources */,
+				19B509212009CEB500635ACE /* ViewController.swift in Sources */,
+				19B5091F2009CEB500635ACE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B5092E2009CEB600635ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B509372009CEB600635ACE /* Road_TripTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B509392009CEB600635ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B509422009CEB600635ACE /* Road_TripUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19B509342009CEB600635ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19B5091A2009CEB500635ACE /* Road Trip */;
+			targetProxy = 19B509332009CEB600635ACE /* PBXContainerItemProxy */;
+		};
+		19B5093F2009CEB600635ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19B5091A2009CEB500635ACE /* Road Trip */;
+			targetProxy = 19B5093E2009CEB600635ACE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19B509222009CEB500635ACE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B509232009CEB500635ACE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19B5092A2009CEB500635ACE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19B5092B2009CEB500635ACE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19B509442009CEB600635ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19B509452009CEB600635ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19B509472009CEB600635ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Road Trip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.infinitylabs.Road-Trip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19B509482009CEB600635ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Road Trip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.infinitylabs.Road-Trip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19B5094A2009CEB600635ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Road TripTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.infinitylabs.Road-TripTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Road Trip.app/Road Trip";
+			};
+			name = Debug;
+		};
+		19B5094B2009CEB600635ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Road TripTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.infinitylabs.Road-TripTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Road Trip.app/Road Trip";
+			};
+			name = Release;
+		};
+		19B5094D2009CEB600635ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Road TripUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.infinitylabs.Road-TripUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Road Trip";
+			};
+			name = Debug;
+		};
+		19B5094E2009CEB600635ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Road TripUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.infinitylabs.Road-TripUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Road Trip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19B509162009CEB500635ACE /* Build configuration list for PBXProject "Road Trip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B509442009CEB600635ACE /* Debug */,
+				19B509452009CEB600635ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B509462009CEB600635ACE /* Build configuration list for PBXNativeTarget "Road Trip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B509472009CEB600635ACE /* Debug */,
+				19B509482009CEB600635ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B509492009CEB600635ACE /* Build configuration list for PBXNativeTarget "Road TripTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B5094A2009CEB600635ACE /* Debug */,
+				19B5094B2009CEB600635ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B5094C2009CEB600635ACE /* Build configuration list for PBXNativeTarget "Road TripUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B5094D2009CEB600635ACE /* Debug */,
+				19B5094E2009CEB600635ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		19B509252009CEB500635ACE /* Road_Trip.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				19B509262009CEB500635ACE /* Road_Trip.xcdatamodel */,
+			);
+			currentVersion = 19B509262009CEB500635ACE /* Road_Trip.xcdatamodel */;
+			path = Road_Trip.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 19B509132009CEB400635ACE /* Project object */;
+}
