@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19677EBB202AAF58008B93D2 /* BattleshipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19677EBA202AAF58008B93D2 /* BattleshipViewController.swift */; };
+		19677EBD202AAFEF008B93D2 /* DoodlePadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19677EBC202AAFEF008B93D2 /* DoodlePadViewController.swift */; };
+		19677EBF202AB0B8008B93D2 /* SpotTheCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19677EBE202AB0B8008B93D2 /* SpotTheCarViewController.swift */; };
+		19677EC1202AB0E7008B93D2 /* iSpyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19677EC0202AB0E7008B93D2 /* iSpyViewController.swift */; };
+		19677EC3202AB116008B93D2 /* LicensePlateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19677EC2202AB116008B93D2 /* LicensePlateViewController.swift */; };
+		19677EC5202AB14C008B93D2 /* OutsideOfAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19677EC4202AB14C008B93D2 /* OutsideOfAppViewController.swift */; };
 		19B5091F2009CEB500635ACE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B5091E2009CEB500635ACE /* AppDelegate.swift */; };
 		19B509212009CEB500635ACE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B509202009CEB500635ACE /* ViewController.swift */; };
 		19B509242009CEB500635ACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B509222009CEB500635ACE /* Main.storyboard */; };
@@ -35,7 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		19B5091B2009CEB500635ACE /* Road Trip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Road Trip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19677EBA202AAF58008B93D2 /* BattleshipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleshipViewController.swift; sourceTree = "<group>"; };
+		19677EBC202AAFEF008B93D2 /* DoodlePadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodlePadViewController.swift; sourceTree = "<group>"; };
+		19677EBE202AB0B8008B93D2 /* SpotTheCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotTheCarViewController.swift; sourceTree = "<group>"; };
+		19677EC0202AB0E7008B93D2 /* iSpyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSpyViewController.swift; sourceTree = "<group>"; };
+		19677EC2202AB116008B93D2 /* LicensePlateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicensePlateViewController.swift; sourceTree = "<group>"; };
+		19677EC4202AB14C008B93D2 /* OutsideOfAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutsideOfAppViewController.swift; sourceTree = "<group>"; };
+		19B5091B2009CEB500635ACE /* Road Trip iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Road Trip iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B5091E2009CEB500635ACE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19B509202009CEB500635ACE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		19B509232009CEB500635ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,10 +55,10 @@
 		19B509282009CEB500635ACE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19B5092B2009CEB500635ACE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19B5092D2009CEB600635ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19B509322009CEB600635ACE /* Road TripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Road TripTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B509322009CEB600635ACE /* Road Trip iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Road Trip iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B509362009CEB600635ACE /* Road_TripTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Road_TripTests.swift; sourceTree = "<group>"; };
 		19B509382009CEB600635ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19B5093D2009CEB600635ACE /* Road TripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Road TripUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B5093D2009CEB600635ACE /* Road Trip iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Road Trip iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B509412009CEB600635ACE /* Road_TripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Road_TripUITests.swift; sourceTree = "<group>"; };
 		19B509432009CEB600635ACE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +101,9 @@
 		19B5091C2009CEB500635ACE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				19B5091B2009CEB500635ACE /* Road Trip.app */,
-				19B509322009CEB600635ACE /* Road TripTests.xctest */,
-				19B5093D2009CEB600635ACE /* Road TripUITests.xctest */,
+				19B5091B2009CEB500635ACE /* Road Trip iOS.app */,
+				19B509322009CEB600635ACE /* Road Trip iOSTests.xctest */,
+				19B5093D2009CEB600635ACE /* Road Trip iOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,6 +118,12 @@
 				19B5092A2009CEB500635ACE /* LaunchScreen.storyboard */,
 				19B5092D2009CEB600635ACE /* Info.plist */,
 				19B509252009CEB500635ACE /* Road_Trip.xcdatamodeld */,
+				19677EBA202AAF58008B93D2 /* BattleshipViewController.swift */,
+				19677EBC202AAFEF008B93D2 /* DoodlePadViewController.swift */,
+				19677EBE202AB0B8008B93D2 /* SpotTheCarViewController.swift */,
+				19677EC2202AB116008B93D2 /* LicensePlateViewController.swift */,
+				19677EC0202AB0E7008B93D2 /* iSpyViewController.swift */,
+				19677EC4202AB14C008B93D2 /* OutsideOfAppViewController.swift */,
 			);
 			path = "Road Trip";
 			sourceTree = "<group>";
@@ -131,9 +149,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		19B5091A2009CEB500635ACE /* Road Trip */ = {
+		19B5091A2009CEB500635ACE /* Road Trip iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19B509462009CEB600635ACE /* Build configuration list for PBXNativeTarget "Road Trip" */;
+			buildConfigurationList = 19B509462009CEB600635ACE /* Build configuration list for PBXNativeTarget "Road Trip iOS" */;
 			buildPhases = (
 				19B509172009CEB500635ACE /* Sources */,
 				19B509182009CEB500635ACE /* Frameworks */,
@@ -143,14 +161,14 @@
 			);
 			dependencies = (
 			);
-			name = "Road Trip";
+			name = "Road Trip iOS";
 			productName = "Road Trip";
-			productReference = 19B5091B2009CEB500635ACE /* Road Trip.app */;
+			productReference = 19B5091B2009CEB500635ACE /* Road Trip iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		19B509312009CEB600635ACE /* Road TripTests */ = {
+		19B509312009CEB600635ACE /* Road Trip iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19B509492009CEB600635ACE /* Build configuration list for PBXNativeTarget "Road TripTests" */;
+			buildConfigurationList = 19B509492009CEB600635ACE /* Build configuration list for PBXNativeTarget "Road Trip iOSTests" */;
 			buildPhases = (
 				19B5092E2009CEB600635ACE /* Sources */,
 				19B5092F2009CEB600635ACE /* Frameworks */,
@@ -161,14 +179,14 @@
 			dependencies = (
 				19B509342009CEB600635ACE /* PBXTargetDependency */,
 			);
-			name = "Road TripTests";
+			name = "Road Trip iOSTests";
 			productName = "Road TripTests";
-			productReference = 19B509322009CEB600635ACE /* Road TripTests.xctest */;
+			productReference = 19B509322009CEB600635ACE /* Road Trip iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		19B5093C2009CEB600635ACE /* Road TripUITests */ = {
+		19B5093C2009CEB600635ACE /* Road Trip iOSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19B5094C2009CEB600635ACE /* Build configuration list for PBXNativeTarget "Road TripUITests" */;
+			buildConfigurationList = 19B5094C2009CEB600635ACE /* Build configuration list for PBXNativeTarget "Road Trip iOSUITests" */;
 			buildPhases = (
 				19B509392009CEB600635ACE /* Sources */,
 				19B5093A2009CEB600635ACE /* Frameworks */,
@@ -179,9 +197,9 @@
 			dependencies = (
 				19B5093F2009CEB600635ACE /* PBXTargetDependency */,
 			);
-			name = "Road TripUITests";
+			name = "Road Trip iOSUITests";
 			productName = "Road TripUITests";
-			productReference = 19B5093D2009CEB600635ACE /* Road TripUITests.xctest */;
+			productReference = 19B5093D2009CEB600635ACE /* Road Trip iOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +228,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 19B509162009CEB500635ACE /* Build configuration list for PBXProject "Road Trip" */;
+			buildConfigurationList = 19B509162009CEB500635ACE /* Build configuration list for PBXProject "Road Trip iOS" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,9 +241,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				19B5091A2009CEB500635ACE /* Road Trip */,
-				19B509312009CEB600635ACE /* Road TripTests */,
-				19B5093C2009CEB600635ACE /* Road TripUITests */,
+				19B5091A2009CEB500635ACE /* Road Trip iOS */,
+				19B509312009CEB600635ACE /* Road Trip iOSTests */,
+				19B5093C2009CEB600635ACE /* Road Trip iOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,9 +280,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19677EC5202AB14C008B93D2 /* OutsideOfAppViewController.swift in Sources */,
+				19677EBB202AAF58008B93D2 /* BattleshipViewController.swift in Sources */,
+				19677EC1202AB0E7008B93D2 /* iSpyViewController.swift in Sources */,
 				19B509272009CEB500635ACE /* Road_Trip.xcdatamodeld in Sources */,
 				19B509212009CEB500635ACE /* ViewController.swift in Sources */,
 				19B5091F2009CEB500635ACE /* AppDelegate.swift in Sources */,
+				19677EBD202AAFEF008B93D2 /* DoodlePadViewController.swift in Sources */,
+				19677EC3202AB116008B93D2 /* LicensePlateViewController.swift in Sources */,
+				19677EBF202AB0B8008B93D2 /* SpotTheCarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,12 +313,12 @@
 /* Begin PBXTargetDependency section */
 		19B509342009CEB600635ACE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 19B5091A2009CEB500635ACE /* Road Trip */;
+			target = 19B5091A2009CEB500635ACE /* Road Trip iOS */;
 			targetProxy = 19B509332009CEB600635ACE /* PBXContainerItemProxy */;
 		};
 		19B5093F2009CEB600635ACE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 19B5091A2009CEB500635ACE /* Road Trip */;
+			target = 19B5091A2009CEB500635ACE /* Road Trip iOS */;
 			targetProxy = 19B5093E2009CEB600635ACE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -466,7 +490,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Road Trip.app/Road Trip";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Road Trip iOS.app/Road Trip iOS";
 			};
 			name = Debug;
 		};
@@ -482,7 +506,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Road Trip.app/Road Trip";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Road Trip iOS.app/Road Trip iOS";
 			};
 			name = Release;
 		};
@@ -519,7 +543,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		19B509162009CEB500635ACE /* Build configuration list for PBXProject "Road Trip" */ = {
+		19B509162009CEB500635ACE /* Build configuration list for PBXProject "Road Trip iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19B509442009CEB600635ACE /* Debug */,
@@ -528,7 +552,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		19B509462009CEB600635ACE /* Build configuration list for PBXNativeTarget "Road Trip" */ = {
+		19B509462009CEB600635ACE /* Build configuration list for PBXNativeTarget "Road Trip iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19B509472009CEB600635ACE /* Debug */,
@@ -537,7 +561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		19B509492009CEB600635ACE /* Build configuration list for PBXNativeTarget "Road TripTests" */ = {
+		19B509492009CEB600635ACE /* Build configuration list for PBXNativeTarget "Road Trip iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19B5094A2009CEB600635ACE /* Debug */,
@@ -546,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		19B5094C2009CEB600635ACE /* Build configuration list for PBXNativeTarget "Road TripUITests" */ = {
+		19B5094C2009CEB600635ACE /* Build configuration list for PBXNativeTarget "Road Trip iOSUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				19B5094D2009CEB600635ACE /* Debug */,
