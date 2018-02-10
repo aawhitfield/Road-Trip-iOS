@@ -33,10 +33,48 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="4NL-Y3-yeq"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FmH-7V-kkS">
+                                <rect key="frame" x="16" y="318" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="A1"/>
+                                <connections>
+                                    <action selector="displayResult:" destination="kj0-lF-4IK" eventType="touchUpInside" id="JbW-A2-TYB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P9i-2x-ezM">
+                                <rect key="frame" x="215" y="318" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="A3"/>
+                                <connections>
+                                    <action selector="displayResult:" destination="kj0-lF-4IK" eventType="touchUpInside" id="uWE-86-Dse"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CBB-4s-IS2">
+                                <rect key="frame" x="313" y="318" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="A4"/>
+                                <connections>
+                                    <action selector="displayResult:" destination="kj0-lF-4IK" eventType="touchUpInside" id="ndJ-7w-mi5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j10-Or-Jom">
+                                <rect key="frame" x="118" y="318" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="A2"/>
+                                <connections>
+                                    <action selector="displayResult:" destination="kj0-lF-4IK" eventType="touchUpInside" id="fPf-V0-xcY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="DlT-PV-8UM"/>
                     </view>
+                    <connections>
+                        <outlet property="buttonA1" destination="FmH-7V-kkS" id="dND-rL-1Gh"/>
+                        <outlet property="buttonA2" destination="j10-Or-Jom" id="fP3-Ad-dg1"/>
+                        <outlet property="buttonA3" destination="P9i-2x-ezM" id="Gua-AM-ZSG"/>
+                        <outlet property="buttonA4" destination="CBB-4s-IS2" id="LZm-bB-pFP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JXa-Ko-NHW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

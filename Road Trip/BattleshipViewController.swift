@@ -9,7 +9,31 @@
 import UIKit
 
 class BattleshipViewController: UIViewController {
-
+  
+    
+    
+    @IBOutlet var buttonA1: UIButton!
+    @IBOutlet var buttonA2: UIButton!
+    @IBOutlet var buttonA3: UIButton!
+    @IBOutlet var buttonA4: UIButton!
+    
+    func displayHit()
+    {
+        let alertController = UIAlertController(title: "Battleship", message: "Hit", preferredStyle: UIAlertControllerStyle.alert)
+        alertController.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+        self.present(alertController, animated: true, completion: nil)
+    }
+    
+    @IBAction func displayResult(_ sender: UIButton)
+    {
+        switch sender.tag {
+        case 1:
+            displayHit();
+        default:
+            displayHit();
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
