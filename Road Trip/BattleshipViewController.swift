@@ -24,13 +24,26 @@ class BattleshipViewController: UIViewController {
         self.present(alertController, animated: true, completion: nil)
     }
     
+    func displayMiss()
+    {
+        let alertController = UIAlertController(title: "Battleship", message: "Miss", preferredStyle: UIAlertControllerStyle.alert)
+        alertController.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+        self.present(alertController, animated: true, completion: nil)
+    }
+    
     @IBAction func displayResult(_ sender: UIButton)
     {
         switch sender.tag {
         case 1:
+            displayMiss();
+        case 2:
             displayHit();
+        case 3:
+            displayHit();
+        case 4:
+            displayMiss();
         default:
-            displayHit();
+            displayMiss();
         }
     }
     
