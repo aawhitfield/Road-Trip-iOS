@@ -9,14 +9,17 @@
 import UIKit
 
 class SpotTheCarViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    let cellContent = ["Black car", "Blue car", "Red car", "White car"]
+    
     internal func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return cellContent.count
     }
     
     internal func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "Cell")
         
-        cell.textLabel?.text = "Test"
+        cell.textLabel?.text = cellContent[indexPath.row      ]
         
         return cell
     }
@@ -45,3 +48,4 @@ class SpotTheCarViewController: UIViewController, UITableViewDelegate, UITableVi
     */
 
 }
+

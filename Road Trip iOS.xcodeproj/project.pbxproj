@@ -13,6 +13,7 @@
 		19677EC1202AB0E7008B93D2 /* iSpyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19677EC0202AB0E7008B93D2 /* iSpyViewController.swift */; };
 		19677EC3202AB116008B93D2 /* LicensePlateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19677EC2202AB116008B93D2 /* LicensePlateViewController.swift */; };
 		19677EC5202AB14C008B93D2 /* OutsideOfAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19677EC4202AB14C008B93D2 /* OutsideOfAppViewController.swift */; };
+		198643BF2033E8620000A7A0 /* SpotTheCarTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198643BE2033E8610000A7A0 /* SpotTheCarTableTableViewController.swift */; };
 		19B5091F2009CEB500635ACE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B5091E2009CEB500635ACE /* AppDelegate.swift */; };
 		19B509212009CEB500635ACE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B509202009CEB500635ACE /* ViewController.swift */; };
 		19B509242009CEB500635ACE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B509222009CEB500635ACE /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		19677EC0202AB0E7008B93D2 /* iSpyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSpyViewController.swift; sourceTree = "<group>"; };
 		19677EC2202AB116008B93D2 /* LicensePlateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicensePlateViewController.swift; sourceTree = "<group>"; };
 		19677EC4202AB14C008B93D2 /* OutsideOfAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutsideOfAppViewController.swift; sourceTree = "<group>"; };
+		198643BE2033E8610000A7A0 /* SpotTheCarTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotTheCarTableTableViewController.swift; sourceTree = "<group>"; };
 		19B5091B2009CEB500635ACE /* Road Trip iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Road Trip iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B5091E2009CEB500635ACE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19B509202009CEB500635ACE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				19677EBA202AAF58008B93D2 /* BattleshipViewController.swift */,
 				19677EBC202AAFEF008B93D2 /* DoodlePadViewController.swift */,
 				19677EBE202AB0B8008B93D2 /* SpotTheCarViewController.swift */,
+				198643BE2033E8610000A7A0 /* SpotTheCarTableTableViewController.swift */,
 				19677EC2202AB116008B93D2 /* LicensePlateViewController.swift */,
 				19677EC0202AB0E7008B93D2 /* iSpyViewController.swift */,
 				19677EC4202AB14C008B93D2 /* OutsideOfAppViewController.swift */,
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19677EC5202AB14C008B93D2 /* OutsideOfAppViewController.swift in Sources */,
+				198643BF2033E8620000A7A0 /* SpotTheCarTableTableViewController.swift in Sources */,
 				19677EBB202AAF58008B93D2 /* BattleshipViewController.swift in Sources */,
 				19677EC1202AB0E7008B93D2 /* iSpyViewController.swift in Sources */,
 				19B509272009CEB500635ACE /* Road_Trip.xcdatamodeld in Sources */,
