@@ -10,7 +10,7 @@ import UIKit
 
 class LicensePlateViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    let cellContent = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Iowa", "Kansas", "Kentucky", "Louisiana"];
+    let cellContent = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Mayland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"];
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return cellContent.count;
@@ -24,6 +24,24 @@ class LicensePlateViewController: UIViewController, UITableViewDelegate, UITable
         return cell;
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    {
+        tableView.deselectRow(at: indexPath, animated: true);
+        if let cell = tableView.cellForRow(at: indexPath as IndexPath)
+        {
+            if cell.accessoryType == .checkmark
+            {
+                cell.accessoryType = .none
+            }
+            else
+            {
+                cell.accessoryType = .checkmark
+            }
+        }
+      
+    }
+    
+ 
 
     
     
