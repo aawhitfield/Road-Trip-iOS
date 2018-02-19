@@ -8,8 +8,25 @@
 
 import UIKit
 
-class LicensePlateViewController: UIViewController {
+class LicensePlateViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    let cellContent = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Iowa", "Kansas", "Kentucky", "Louisiana"];
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return cellContent.count;
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "StateCell");
+        
+        cell.textLabel?.text = cellContent[indexPath.row];
+        
+        return cell;
+    }
+    
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

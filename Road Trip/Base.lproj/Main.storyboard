@@ -202,7 +202,33 @@
                     <view key="view" contentMode="scaleToFill" id="tq2-Ku-i6x">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5Or-f2-qCh">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="StateCell" id="Uq5-um-CYv">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Uq5-um-CYv" id="gFB-bj-oxl">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="xRc-ZP-v7c" id="Y8A-Fx-rEb"/>
+                                    <outlet property="delegate" destination="xRc-ZP-v7c" id="YlE-od-V5V"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="5Or-f2-qCh" firstAttribute="leading" secondItem="Qf6-JS-kQn" secondAttribute="leading" id="SHM-Jn-hCV"/>
+                            <constraint firstItem="5Or-f2-qCh" firstAttribute="top" secondItem="Qf6-JS-kQn" secondAttribute="top" id="ZaU-9X-sjm"/>
+                            <constraint firstItem="Qf6-JS-kQn" firstAttribute="bottom" secondItem="5Or-f2-qCh" secondAttribute="bottom" id="lIl-sM-SrH"/>
+                            <constraint firstItem="Qf6-JS-kQn" firstAttribute="trailing" secondItem="5Or-f2-qCh" secondAttribute="trailing" id="qyp-L3-lWR"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Qf6-JS-kQn"/>
                     </view>
                     <navigationItem key="navigationItem" title="License Plate" id="bux-fy-FD8"/>
