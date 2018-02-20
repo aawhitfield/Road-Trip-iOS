@@ -14,6 +14,8 @@ class LicensePlateViewController: UIViewController, UITableViewDelegate, UITable
     
     let cellContent = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"];
     
+    var isSpotted = Array(repeating: false, count: 50);
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
          return cellContent.count;
     }
@@ -24,6 +26,15 @@ class LicensePlateViewController: UIViewController, UITableViewDelegate, UITable
         
         cell?.stateLabel.text = cellContent[indexPath.row];
         cell?.stateImageView.image = UIImage(named: cellContent[indexPath.row]);
+        
+        if (isSpotted[indexPath.row])
+        {
+            cell?.accessoryType = .checkmark;
+        }
+        else
+        {
+            cell?.accessoryType = .none;
+        }
         
         return cell!;
     }
@@ -36,10 +47,12 @@ class LicensePlateViewController: UIViewController, UITableViewDelegate, UITable
             if cell.accessoryType == .checkmark
             {
                 cell.accessoryType = .none
+                isSpotted[indexPath.row] = false;
             }
             else
             {
                 cell.accessoryType = .checkmark
+                isSpotted[indexPath.row] = true;
             }
         }
       
