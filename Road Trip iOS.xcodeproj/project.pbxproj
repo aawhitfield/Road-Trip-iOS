@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1927FED1203BB96200D47412 /* StateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1927FED0203BB96100D47412 /* StateTableViewCell.swift */; };
 		19677EBB202AAF58008B93D2 /* BattleshipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19677EBA202AAF58008B93D2 /* BattleshipViewController.swift */; };
 		19677EBD202AAFEF008B93D2 /* DoodlePadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19677EBC202AAFEF008B93D2 /* DoodlePadViewController.swift */; };
 		19677EBF202AB0B8008B93D2 /* SpotTheCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19677EBE202AB0B8008B93D2 /* SpotTheCarViewController.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1927FED0203BB96100D47412 /* StateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateTableViewCell.swift; sourceTree = "<group>"; };
 		19677EBA202AAF58008B93D2 /* BattleshipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleshipViewController.swift; sourceTree = "<group>"; };
 		19677EBC202AAFEF008B93D2 /* DoodlePadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodlePadViewController.swift; sourceTree = "<group>"; };
 		19677EBE202AB0B8008B93D2 /* SpotTheCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotTheCarViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				19677EBE202AB0B8008B93D2 /* SpotTheCarViewController.swift */,
 				198643BE2033E8610000A7A0 /* SpotTheCarTableTableViewController.swift */,
 				19677EC2202AB116008B93D2 /* LicensePlateViewController.swift */,
+				1927FED0203BB96100D47412 /* StateTableViewCell.swift */,
 				19677EC0202AB0E7008B93D2 /* iSpyViewController.swift */,
 				19677EC4202AB14C008B93D2 /* OutsideOfAppViewController.swift */,
 			);
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1927FED1203BB96200D47412 /* StateTableViewCell.swift in Sources */,
 				19677EC5202AB14C008B93D2 /* OutsideOfAppViewController.swift in Sources */,
 				198643BF2033E8620000A7A0 /* SpotTheCarTableTableViewController.swift in Sources */,
 				19677EBB202AAF58008B93D2 /* BattleshipViewController.swift in Sources */,
