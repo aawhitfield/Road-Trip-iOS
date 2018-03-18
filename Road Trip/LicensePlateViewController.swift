@@ -48,11 +48,13 @@ class LicensePlateViewController: UIViewController, UITableViewDelegate, UITable
             {
                 cell.accessoryType = .none
                 isSpotted[indexPath.row] = false;
+                UserDefaults.standard.set(isSpotted, forKey: "permanentStates");
             }
             else
             {
                 cell.accessoryType = .checkmark
                 isSpotted[indexPath.row] = true;
+                UserDefaults.standard.set(isSpotted, forKey: "permanentStates");
             }
         }
       
@@ -71,6 +73,14 @@ class LicensePlateViewController: UIViewController, UITableViewDelegate, UITable
 
         // Do any additional setup after loading the view.
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        let arrayObject = UserDefaults.standard.object(forKey: "permanentStates");
+        if let array = arrayObject as? [Bool]
+        {
+            isSpotted = array;
+        }
+            }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
